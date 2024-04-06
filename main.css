@@ -36,7 +36,34 @@ header nav ul li a{
     font-size: 22px;
 }
 
-/* Hero Sdtyle Start */
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #024e76;
+}
+
+
+section {
+    padding: 60px;
+}
+/* Hero Style Start */
 .hero {
     background-image: url(hero-bg.jpg);
     height: 600px;
@@ -86,31 +113,4 @@ header nav ul li a{
     border: none;
     padding: 10px 20px;
     font-size: 16px;
-}
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 562443a0848b9628037697ae57385e51b40a9f9a
-footer {
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
-}
-
-footer h2 {
-    display: inline;
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-}
-
-footer div {
-    float: right;
-    line-height: 1.5;
-    text-align: right;
-}
-
-footer a {
-    color: #024e76;
 }
