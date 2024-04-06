@@ -27,7 +27,18 @@ header ul li {
     border: 1px solid white;
     padding: 10px 20px;
     border-radius: 15px;
+<<<<<<< HEAD
 
+=======
+}
+* {
+    /* background-color: white;
+    color: aqua; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+>>>>>>> 56a75129fa70f01d52afbebbc7904742d8570f1f
 
 /* this is section Design */
 section {
