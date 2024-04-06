@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 header{
     background-color: black;
     padding: 25px;
@@ -19,7 +19,6 @@ header ul li{
     border: 1px solid white;
     padding: 10px 20px;
     border-radius: 15px;
-=======
 * {
     /* background-color: white;
     color: aqua; */
@@ -32,5 +31,4 @@ header ul li{
 section {
     background-color: white;
     color: aqua;
->>>>>>> refs/remotes/origin/main
 }
