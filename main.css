@@ -1,0 +1,21 @@
+header{
+    background-color: black;
+    padding: 25px;
+}
+header h1{
+    display: inline;
+    color: white;
+}
+header nav{
+    float: right;
+}
+header ul li{
+    margin: 0 15px;
+    display: inline;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
