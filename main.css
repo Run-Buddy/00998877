@@ -45,7 +45,6 @@ header nav ul li a{
     position: relative;
 }
 
-<<<<<<< HEAD
 /* Hero Style End */
 .hero-form {
     border: 3px solid#024e76;
@@ -62,7 +61,7 @@ header nav ul li a{
     font-size: 24px;
     margin: 0;
 }
-=======
+
 .hero-form p {
     margin: 5px 0 15px 0;
 }
@@ -89,7 +88,6 @@ header nav ul li a{
     font-size: 16px;
 }
 
->>>>>>> d82d4d7822b8127604a2f8d4cfbb9961d257df64
 footer {
     background: #fce138;
     width: 100%;
