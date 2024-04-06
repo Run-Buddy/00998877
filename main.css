@@ -1,0 +1,13 @@
+* {
+    /* background-color: white;
+    color: aqua; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* this is section Design */
+section {
+    background-color: white;
+    color: aqua;
+}
