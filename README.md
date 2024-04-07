@@ -1,6 +1,8 @@
-# Run-Buddy version 1.2.2 added html and css file.
+# Run-Buddy version 1.3 added html and css file.
 
-* note this version 1.2.2 Header and Footer Created desigh color and attributes.
+* this version 1.3 Header, Body and Footer Created desigh color form labbel and attributes.
+
+* Created hero form label input and buttom on the Body
 
 # footer
 
