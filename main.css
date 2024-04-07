@@ -3,34 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+body {
     color: #39a6b2;
     background-color: beige;
     font-family: 'Times New Roman',
 }
-header{
+header {
     padding: 20px 35px;
     background-color: #39a6b2;
 }
-header h1{
+header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
     margin: 0;
     display: inline;
 }
-header a{
+header a {
     text-decoration: none;
     color: #fce138;
 }
-header nav{
+header nav {
     float: right;
     margin: 7px 0px;
 }
-header nav ul li{
+header nav ul li {
     display: inline;
 }
-header nav ul li a{
+header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
