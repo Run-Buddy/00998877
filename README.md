@@ -12,3 +12,5 @@
 *   v2 footer try not difficute .
 
 *   v3 footer try not difficute successfully finish.
+## lenguages အခက်ခဲရှိခဲ့သည်/
+*pannacollage  ဝှက်ဆိုဒ်ပြည့်စုံမှုကြောင့် ရေးသားနိုင်ခဲ့သည်
