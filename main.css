@@ -138,3 +138,17 @@ section {
 .intro p {
     margin: 0;
 }
+
+/* what you do's class selector */
+.steps {
+    text-align: center;
+    background: #fce138;
+}
+.steps h2 {
+    font-size: 55px;
+    color: #02476;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #39a6b2;
+}
