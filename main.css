@@ -134,3 +134,7 @@ section {
     border-bottom: 3px solid;
     border-color: #fce138;
 }
+
+.intro p {
+    margin: 0;
+}
