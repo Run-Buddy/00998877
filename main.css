@@ -114,3 +114,8 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
+
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}

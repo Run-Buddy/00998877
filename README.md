@@ -12,6 +12,7 @@
 *   v2 footer try not difficute .
 
 *   v3 footer try not difficute successfully finish.
+<<<<<<< HEAD
 
 Version1 မှာက h1 ခေါင်းစီးတန်းနဲ့ h2 စာတန်းတွေကို html languagesသီးသန့်ဖြင့် အဖွဲ့သားအားလုံးက တက်ညီလက်ညီ တည်ဆောက်ပြုလုပ်ကြပါတယ်။
 အောက်ခြေဘာတန်းမှာတော့ Heart*Emojiကို အထူးပေးပြီး ထည့်ထားပါတယ်၊ linkတွေကနေ တစ်ဆင့် copyထားပြီး ထည့်လိုက်ပါတယ်။
@@ -31,3 +32,7 @@ se known as a home when someone is living in it. Suita...
 <header><style>
 <h1>
 </header>
+=======
+## lenguages အခက်ခဲရှိခဲ့သည်/
+*pannacollage  ဝှက်ဆိုဒ်ပြည့်စုံမှုကြောင့် ရေးသားနိုင်ခဲ့သည်
+>>>>>>> 5d7cb666330120824fbec2b23a4bde40ca6ba00f
