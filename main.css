@@ -37,30 +37,6 @@ header nav ul li a {
 }
 
 
-footer {
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
-}
-
-footer h2 {
-    display: inline;
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-}
-
-footer div {
-    float: right;
-    line-height: 1.5;
-    text-align: right;
-}
-
-footer a {
-    color: #024e76;
-}
-
-
 section {
     padding: 60px;
 }
@@ -192,7 +168,6 @@ section {
     padding: 35px;
     float: left;
     width: 65%;
-    
 }
 
 .trainer-bio h3 {
@@ -210,6 +185,10 @@ section {
     font-size: 17px;
     line-height: 1.3;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3d87c63cd890f93c3c051b88d659e604d1093798
 .section-title {
     font-size: 55px;
     color: #024e76;
@@ -230,3 +209,94 @@ section {
 .steps span{
     font-size: 38px;
 }
+
+/* .trainer img{
+    float: left;
+}
+.trainer p{
+    float: right;
+}
+.trainer-2 img{
+    float: right;
+}
+.trainer-2 p{
+    float: left;
+} */
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.section-title {
+    font-size: 55px;
+    display: inline-block;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    margin-bottom: 35px;
+    color: #024e76;
+}
+
+/* Reach out styles start */
+.contact {
+    text-align: center;
+    background: #024e76;
+}
+.contact h2 {
+    color: #fce138;
+}
+
+.contact-info iframe {
+    width: 400px;
+    height: 400px;
+}
+
+.contact-info div{
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
+}
+
+.contact-info h3{
+    color: #fce138;
+    font-size: 32px;
+}
+.contact-info p, .contact-info address{
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+}
+.contact-info a{
+    color: #fce138;
+}
+/* REACH OUT STYLES END */
+
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #024e76;
+}
+
