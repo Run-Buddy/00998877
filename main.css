@@ -185,12 +185,9 @@ section {
     font-size: 17px;
     line-height: 1.3;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 3d87c63cd890f93c3c051b88d659e604d1093798
 .section-title {
     font-size: 55px;
+    text-align: center;
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
