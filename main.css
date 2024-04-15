@@ -221,6 +221,7 @@ section {
     text-align: right;
 }
 
+<<<<<<< HEAD
 .section-title {
     font-size: 55px;
     display: inline-block;
@@ -245,6 +246,9 @@ section {
 }
 
 .contact-info div {
+=======
+.contact-info div{
+>>>>>>> 59df9e4709a923e85ce4fe5cc701e552f31a0dc7
     width: 410px;
     display: inline-block;
     vertical-align: top;
@@ -252,7 +256,24 @@ section {
     margin: 30px 0 0 60px;
     color: white;
 }
+<<<<<<< HEAD
 
+=======
+.contact-info h3{
+    color: #fce138;
+    font-size: 32px;
+}
+.contact-info p, .contact-info address{
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+}
+.contact-info a{
+    color: #fce138;
+}
+/* REACH OUT STYLES END */
+>>>>>>> 59df9e4709a923e85ce4fe5cc701e552f31a0dc7
 footer {
     background: #fce138;
     width: 100%;
