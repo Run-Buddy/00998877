@@ -221,7 +221,6 @@ section {
     text-align: right;
 }
 
-<<<<<<< HEAD
 .section-title {
     font-size: 55px;
     display: inline-block;
@@ -245,10 +244,7 @@ section {
     height: 400px;
 }
 
-.contact-info div {
-=======
 .contact-info div{
->>>>>>> 59df9e4709a923e85ce4fe5cc701e552f31a0dc7
     width: 410px;
     display: inline-block;
     vertical-align: top;
@@ -256,9 +252,7 @@ section {
     margin: 30px 0 0 60px;
     color: white;
 }
-<<<<<<< HEAD
 
-=======
 .contact-info h3{
     color: #fce138;
     font-size: 32px;
@@ -273,7 +267,7 @@ section {
     color: #fce138;
 }
 /* REACH OUT STYLES END */
->>>>>>> 59df9e4709a923e85ce4fe5cc701e552f31a0dc7
+
 footer {
     background: #fce138;
     width: 100%;
@@ -297,6 +291,3 @@ footer a {
     color: #024e76;
 }
 
-
-
-https://www.google.com/maps/place/Sitagu+Buddhist+College/@16.9150068,96.2651506,291m/data=!3m1!1e3!4m6!3m5!1s0x30c18e7694946983:0xb5b4c4ef4328b4fd!8m2!3d16.9147702!4d96.2657107!16s%2Fg%2F1ptzf2rhc?authuser=0&entry=ttu
