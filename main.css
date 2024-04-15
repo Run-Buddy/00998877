@@ -125,7 +125,7 @@ section {
 .intro {
     text-align: center;
 }
-
+/* remove this entire CSS rule */
 .intro h2 {
     font-size: 55px;
     color: #024e76;
@@ -136,7 +136,12 @@ section {
 }
 
 .intro p {
-    margin: 0;
+    /* add this alongside your other declartion */
+    margin: 0 auto;
+    line-height: 1,7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
 }
 
 /* what you do's class selector */
@@ -144,6 +149,7 @@ section {
     text-align: center;
     background: #fce138;
 }
+/* and this one */
 .steps h2 {
     font-size: 55px;
     color: #024e76;
@@ -151,8 +157,14 @@ section {
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
     border-color: #39a6b2;
+    /* add this alongside your other declartions */
+    display: inline-block;
 }
-
+.steps h3{
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
 .trainers {
     text-align: center;
 }
@@ -174,4 +186,24 @@ section {
     float: left;
     width: 65%;
     
+}
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+.primary-border{
+    border-color: #fce138;
+}
+.secondary-border{
+    border-color: #39a6b2;
+}
+.steps div{
+    margin-bottom: 80px;
+}
+.steps span{
+    font-size: 38px;
 }
