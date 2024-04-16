@@ -28,7 +28,7 @@ header nav {
     margin: 7px 0px;
 }
 header nav ul li {
-    display: inline;
+    display: inline-flex;
 }
 header nav ul li a {
     margin: 0 30px;
@@ -297,3 +297,10 @@ footer a {
     color: #024e76;
 }
 
+/* What does the flex-direction property define? What is it doing here? TODO: Write your answer here */
+@media screen and (max-width: 768px) {
+    header,
+    nav{
+        flex-direction: column;
+    }
+}
