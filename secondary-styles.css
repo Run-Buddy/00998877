@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* header {
+ header {
     padding: 20px 35px;
     background-color: #39a6b2;
 }
@@ -42,7 +42,8 @@ p {
     line-height: 1.9;
     color: black;
     background-color: snow;
-} */
+} 
+
 .hero {
     background-position: bottom;
     height: auto;
