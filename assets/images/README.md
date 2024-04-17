@@ -43,6 +43,7 @@ CSSမှာ Hero, Hero-Form, Hero-Form h3, Hero-Form p, Form-input, Hero-Form l
 -စာတန်းလိုင်းကို display inline နဲ့ float right ကို အသုံးပြုထားသည်။
 ##privacy-policy.html မှာ width ကို အသုံးပြုပီး စာကို အလယ်သို့ ရွှေ့ထားသည်။
 -style.css နှစ်ခုကို  အသုံးပြုထားသည်။
+footer ထဲက heat ကို https://getemoji.com/ နဲ့အသုံးပြုထားရပါတယ်။
 ---
 
 
