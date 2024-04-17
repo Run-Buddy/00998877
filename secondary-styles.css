@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-header {
+/* header {
     padding: 20px 35px;
     background-color: #39a6b2;
 }
@@ -31,8 +31,6 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
-
-
 h3 {
     text-align: center;
     line-height: 3.5;
@@ -42,8 +40,7 @@ p {
     line-height: 1.9;
     color: black;
     background-color: snow;
-} 
-
+} */
 .hero {
     background-position: bottom;
     height: auto;
@@ -60,10 +57,11 @@ p {
     font-size: 42px;
     font-style: italic;
 }
-
+/* main */
 .secondary-content {
-    font-size: 25px;
-    margin: 20px 0;
+    font-size: 15px;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .secondary-content h3 {
@@ -81,9 +79,9 @@ p {
     margin: 15px 20px;
 }
 .secondary-content li{
-    color: #39a6b2;
+    color: #39a;
     margin: 10px 0;
 }
-footer span {
+footer span{
     color: red;
 }

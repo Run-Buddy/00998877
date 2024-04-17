@@ -36,6 +36,12 @@ CSSမှာ Hero, Hero-Form, Hero-Form h3, Hero-Form p, Form-input, Hero-Form l
 4. Reach Out. sectionမှာ iframeနဲ့ တည်ဆောက်ပါသည်<br>
 [link](https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3147.1079747227936!2d-120.42364418397035!3d37.92790791110593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8090c49129b6ac57%3A0xb56c7eb95a2cd8bd!2sMain%20St%2C%20California%2095327!5e0!3m2!1sen!2sus!4v1616426329495!5m2!1sen!2sus)<br>
 *Git status, Git add ., Git commit -m " ", Git push origin main.*လုပ်လိုက်ပါသည်.<br>
+*footer 
+-## ရေးသားထားပီး &hearts;ကို span အတွင်းမှာ ထည့်ထားပြီး css မှာ ကာလာထည့်ထားပါသည်၊
+-div အတွင်းမှာ ပါရှိသည့် a tagကို ထည့်ထားပီး  wid-pag ချိတ်ဆက်ထားပါသည်။
+-စာတန်းလိုင်းကို display inline နဲ့ float right ကို အသုံးပြုထားသည်။
+##privacy-policy.html မှာ width ကို အသုံးပြုပီး စာကို အလယ်သို့ ရွှေ့ထားသည်။
+-style.css နှစ်ခုကို  အသုံးပြုထားသည်။
 ---
 
 
