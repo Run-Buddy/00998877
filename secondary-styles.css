@@ -31,3 +31,7 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+
+h3 {
+    text-align: center;
+}
