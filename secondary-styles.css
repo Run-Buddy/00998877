@@ -34,4 +34,11 @@ header nav ul li a {
 
 h3 {
     text-align: center;
+    line-height: 3.5;
+}
+
+p {
+    line-height: 1.9;
+    color: black;
+    background-color: snow;
 }
