@@ -121,10 +121,10 @@ section {
     font-size: 16px;
 }
 
-.steps img {
+/* .steps img {
     width: 15%;
     margin: 10px 0;
-}
+} */
 
 /* what we do section */
 .intro {
@@ -229,12 +229,12 @@ section {
 .secondary-border{
     border-color: #39a6b2;
 }
-.steps div{
+/* .steps div{
     margin-bottom: 80px;
 }
 .steps span{
     font-size: 38px;
-}
+} */
 
 .text-left {
     text-align: left;
@@ -320,4 +320,34 @@ footer a {
     nav{
         flex-direction: column;
     }
+}
+.step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
+}
+.step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.step-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+.step-text {
+    flex: 12;
+}
+.step-img img {
+    max-width: 100%;
 }
