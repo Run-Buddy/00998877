@@ -19,6 +19,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    text-shadow: 0 0 10px rgb(11, 0, 0);
 
 }
 header a {
@@ -45,9 +46,14 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
 }
-
-
+header nav ul li a:hover {
+    background: #fce138;
+    color: #39a6b2;
+    border-radius: 50px;
+    text-shadow: none;
+}
 section {
     padding: 60px;
 }
@@ -69,15 +75,14 @@ section {
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
-    /* line-height: 1.5rem; */
+    line-height: 1.2;
     
 }
-
 .hero-cta h2 {
     font-style: italic;
     font-size: 55px;
     color: #fce138;
-    
+    text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
 /* Hero Style End */
@@ -88,6 +93,8 @@ section {
     width: 40%;
     color: #024e76;
     margin: 3.5%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
 .hero-form h3 {
@@ -107,6 +114,8 @@ section {
     color: #024e76;
     width: 100%;
     margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: rgba(225,225,225, 1);
 }
 
 .hero-form label {
@@ -285,6 +294,7 @@ section {
     line-height: 1.5;
     font-size: 20px;
     font-style: normal;
+    border-radius: 10px;
 }
 .contact-info a{
     color: #fce138;
