@@ -176,7 +176,7 @@ section {
    color: #39a6b2;
   font-size: 23px;
 }
-.section-title {
+/* .section-title {
     font-size: 55px;
     text-align: center;
     color: #024e76;
@@ -184,7 +184,7 @@ section {
     padding: 0 100px 20px 100px;
     display: inline-block;
     border-bottom: 3px solid;
-}
+} */
 .primary-border{
     border-color: #fce138;
 }
@@ -208,7 +208,7 @@ section {
 
 .section-title {
     font-size: 55px;
-    display: inline-block;
+    /* display: inline-block; */
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
     margin-bottom: 35px;
@@ -217,24 +217,71 @@ section {
 
 /* Reach out styles start */
 .contact {
-    text-align: center;
+    /* text-align: center; */
     background: #024e76;
+}
+.contact-info p {
+    font-size: 16px;
+}
+.contact-info address{
+    font-size: 16px;
+}
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact-form input, .contact-form textarea{
+    border: 1px solid#024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+/* .contact-form input{
+    border: 1px solid#024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+} */
+.contact-form button{
+    width: 100%;
+    border: none;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
 }
 .contact h2 {
     color: #fce138;
+    text-align: center;
 }
 
-/* .contact-info iframe {
-    width: 400px;
+.contact-info > *{
+    float: 1;
+    margin: 15px;
+}
+.contact-info iframe {
+    /* display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; */
+    /* width: 400px; */
     height: 400px;
-} */
+}
 
 .contact-info div{
-    width: 410px;
+    /* width: 410px;
     display: inline-block;
     vertical-align: top;
     text-align: left;
-    margin: 30px 0 0 60px;
+    margin: 30px 0 0 60px; */
     color: white;
 }
 
