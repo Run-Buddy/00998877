@@ -55,8 +55,8 @@ header nav ul li a {
 }
 header nav ul li a:hover {
     background: #fce138;
-    color: #39a6b2;
-    border-radius: 50px;
+    color: #024e76;
+    border-radius: 15px;
     text-shadow: none;
 }
 section {
@@ -130,7 +130,7 @@ section {
 
 .hero-form button {
     color: #fce138;
-    background-color: #024e76;
+    background-color: #39a6b2;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
@@ -314,7 +314,24 @@ section {
 .contact-form button {
     border-radius: 10px;
 }
+
+.contact-form button:hover {
+    color: #fce138;
+    background: #39a6b2;
+}
 /* REACH OUT STYLES END */
+
+button:hover {
+    background: red;
+}
+
+button:focus {
+    background: green;
+}
+
+button:active {
+    background: blue;
+}
 
 footer {
     background: #fce138;
