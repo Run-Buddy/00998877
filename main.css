@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     color: #39a6b2;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,
 }
+
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -19,18 +21,20 @@ header {
     position: sticky;
     top: 0;
 }
+
 header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
     margin: 0;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-
 }
+
 header a {
     text-decoration: none;
     color: #fce138;
 }
+
 header nav {
     margin: 7px 0px;
     justify-content: space-between;
@@ -52,12 +56,8 @@ header nav ul li a {
     margin: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-<<<<<<< HEAD
     padding: 10px 15px;
-    text-shadow: 0 0 10px rgb(0, 0, 0);
-=======
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
->>>>>>> feature
 }
 
 header nav ul li a:hover {
@@ -89,7 +89,6 @@ section {
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
-    /* line-height: 1.2rem;  */
     line-height: 1.2;
     
 }
@@ -146,10 +145,6 @@ section {
     border-radius: 10px;
 }
 
-/* .steps img {
-    width: 15%;
-    margin: 10px 0;
-} */
 
 /* what we do section */
 .intro {
@@ -187,7 +182,6 @@ section {
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
     border-color: #39a6b2;
-    /* add this alongside your other declartions */
     display: inline-block;
 }
 .steps h3{
@@ -200,27 +194,14 @@ section {
    color: #39a6b2;
   font-size: 23px;
 }
-/* .section-title {
-    font-size: 55px;
-    text-align: center;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid;
-} */
+
 .primary-border{
     border-color: #fce138;
 }
+
 .secondary-border{
     border-color: #39a6b2;
 }
-/* .steps div{
-    margin-bottom: 80px;
-}
-.steps span{
-    font-size: 38px;
-} */
 
 .text-left {
     text-align: left;
@@ -232,7 +213,6 @@ section {
 
 .section-title {
     font-size: 55px;
-    /* display: inline-block; */
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
     margin-bottom: 35px;
@@ -241,20 +221,23 @@ section {
 
 /* Reach out styles start */
 .contact {
-    /* text-align: center; */
     background: #024e76;
 }
+
 .contact-info p {
     font-size: 16px;
 }
+
 .contact-info address{
     font-size: 16px;
 }
+
 .contact-info{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 .contact-form input, .contact-form textarea{
     border: 1px solid#024e76;
     display: block;
@@ -265,16 +248,7 @@ section {
     margin-bottom: 15px;
     margin-top: 15px;
 }
-/* .contact-form input{
-    border: 1px solid#024e76;
-    display: block;
-    padding: 7px 15px;
-    font-size: 16px;
-    color: #024e76;
-    width: 100%;
-    margin-bottom: 15px;
-    margin-top: 5px;
-} */
+
 .contact-form button{
     width: 100%;
     border: none;
@@ -283,6 +257,7 @@ section {
     padding: 15px 0;
     font-size: 16px;
 }
+
 .contact h2 {
     color: #fce138;
     text-align: center;
@@ -292,20 +267,13 @@ section {
     float: 1;
     margin: 15px;
 }
+
 .contact-info iframe {
-    /* display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap; */
-    /* width: 400px; */
     height: 400px;
 }
 
 .contact-info div{
-    /* width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 0 0 60px; */
+
     color: white;
 }
 
@@ -390,6 +358,7 @@ footer a {
     line-height: 1.5;
     color: #024e76;
 }
+
 .step {
     margin: 50px auto;
     padding-bottom: 50px;
@@ -400,23 +369,26 @@ footer a {
     align-items: center;
     justify-content: space-between;
 }
+
 .step-info {
     flex: 2 70%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
+
 .step-img {
     flex: 1 12%;
     margin-right: 20px;
 }
+
 .step-text {
     flex: 12;
 }
+
 .step-img img {
     max-width: 100%;
 }
-
 
 .checkbox-wrapper input, .radio-wrapper input{
     opacity: 0;
@@ -452,8 +424,6 @@ footer a {
     left: -29px;
     top: -3px;
     background-image: radial-gradient(circle, #39a6b2, #024e76);
-
-
 }
 
 .checkbox-wrapper label::after{
@@ -469,13 +439,6 @@ footer a {
 }
 
 
-/*.checkbox-wrapper input:checked, .radio-wrapper input:checked{
-    opacity: 1;
-}
-.checkbox-wrapper input:checked + label,
-.radio-wrapper input:checked +label{
-    font-weight: bold;
-}*/
 .checkbox-wrapper input + label::after,
 .radio-wrapper input + label::after{
     content: none;
