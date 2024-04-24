@@ -42,22 +42,22 @@ header nav ul {
 header nav ul li {
     display: inline-flex;
 }
+
 header nav ul li a {
     margin: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-<<<<<<< HEAD
     padding: 10px 15px;
-=======
     text-shadow: 0 0 10px rgb(0, 0, 0);
 }
+
 header nav ul li a:hover {
     background: #fce138;
     color: #39a6b2;
     border-radius: 50px;
     text-shadow: none;
->>>>>>> feature
 }
+
 section {
     padding: 60px;
 }
@@ -79,11 +79,8 @@ section {
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
-<<<<<<< HEAD
-    line-height: 1.2rem; 
-=======
+    /* line-height: 1.2rem;  */
     line-height: 1.2;
->>>>>>> feature
     
 }
 .hero-cta h2 {
