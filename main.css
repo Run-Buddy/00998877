@@ -132,6 +132,11 @@ section {
     background-color: rgba(225,225,225, 1);
 }
 
+.form-input:focus {
+    background-color: rgba(225,225,225, 1);
+    outline: none;
+}
+
 .hero-form label {
     margin: 0 5px;
 }
@@ -375,6 +380,14 @@ footer a {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.step:last-child {
+    border-bottom: 1px solid #39a6b2;
+}
+
+.step:nth-child(even) {
+    border-bottom: 1px solid #39a6b2;
 }
 
 .step-img {
