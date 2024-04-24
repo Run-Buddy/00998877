@@ -10,16 +10,21 @@ body {
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    background-attachment: fixed;
+    background-position: 80%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    text-shadow: 0 0 10px rgb(11, 0, 0);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
 }
 header a {
@@ -46,7 +51,7 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.55vw;
-    text-shadow: 0 0 10px rgb(0, 0, 0);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 header nav ul li a:hover {
     background: #fce138;
@@ -62,7 +67,8 @@ section {
 .hero {
     background-image: url(assets/images/flipped-hero-image.jpeg);
     background-size: cover;
-    background-position: center;
+    background-position: 80%;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -82,7 +88,7 @@ section {
     font-style: italic;
     font-size: 55px;
     color: #fce138;
-    text-shadow: 0 0 10px rgb(0, 0, 0);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Hero Style End */
@@ -94,7 +100,7 @@ section {
     color: #024e76;
     margin: 3.5%;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form h3 {
@@ -128,6 +134,7 @@ section {
     border: none;
     padding: 10px 20px;
     font-size: 16px;
+    border-radius: 10px;
 }
 
 /* .steps img {
@@ -299,6 +306,14 @@ section {
 .contact-info a{
     color: #fce138;
 }
+
+.contact-form input, .contact-form textarea {
+    border-radius: 10px;
+}
+
+.contact-form button {
+    border-radius: 10px;
+}
 /* REACH OUT STYLES END */
 
 footer {
@@ -325,6 +340,11 @@ footer a {
 }
 
 /* What does the flex-direction property define? What is it doing here? TODO: Write your answer here */
+@media screen and (max-width: 980px) {
+    header {
+        position: relative;
+    }
+}
 @media screen and (max-width: 768px) {
     header,
     nav{
