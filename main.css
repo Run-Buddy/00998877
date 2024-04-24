@@ -430,10 +430,10 @@ footer a {
     top: 1px;
     
 }
-.checkbox-wrapper label::after rule:{
+
+.checkbox-wrapper label::after rule {
     transform: rotate(-58deg);
     background-image: radial-gradient(circle, #39a6b2, #024e76);
-
 }
 .checkbox-wrapper input:checked{
     opacity: 1;
@@ -570,9 +570,9 @@ div{
     text-align: center;
 }
 
-.section-title {
+/* .section-title {
     /* width: 80%; */
-}
+
 .trainer {
     flex: 0 70%;
 }
