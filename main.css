@@ -386,6 +386,7 @@ section {
 }
 .contact-info a{
     color: var(--primary-color);
+    text-decoration: none;
 }
 .contact-form {
     left: 34%;
