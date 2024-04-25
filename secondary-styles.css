@@ -6,18 +6,18 @@
 
 /* header {
     padding: 20px 35px;
-    background-color: #39a6b2;
+    background-color: var( --tertiary-color);
 }
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #fce138;
+    color: var( --primary-color);
     margin: 0;
     display: inline;
 }
 header a {
     text-decoration: none;
-    color: #fce138;
+    color: var( --primary-color);
 }
 header nav {
     float: right;
@@ -49,9 +49,9 @@ p {
 }
 
 .page-title {
-    color: #fce138;
+    color: var( --primary-color);
     display: inline-block;
-    border-bottom: 4px solid#fce138;
+    border-bottom: 4px solidvar( --primary-color);
     padding: 0 80px 15px 80px;
     font-weight: normal;
     font-size: 42px;
