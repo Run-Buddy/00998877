@@ -1,3 +1,9 @@
+:root {
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -20,6 +26,11 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
 }
 
 header h1 {
@@ -32,12 +43,12 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: #fce138;
+    color: var(--primary-color)
 }
 
 header nav {
     margin: 7px 0px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 header nav ul {
@@ -48,9 +59,9 @@ header nav ul {
     list-style-type: none;
 }
 
-header nav ul li {
+/* header nav ul li {
     display: inline-flex;
-}
+} */
 
 header nav ul li a {
     margin: 10px 15px;
@@ -61,8 +72,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background: #fce138;
-    color: #024e76;
+    background: var(--primary-color);
+    color: var(--secondary-color);
     border-radius: 15px;
     text-shadow: none;
 }
@@ -95,17 +106,17 @@ section {
 .hero-cta h2 {
     font-style: italic;
     font-size: 55px;
-    color: #fce138;
+    color: var(--primary-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Hero Style End */
 .hero-form {
-    border: 3px solid#024e76;
-    background-color: #fce138;
+    border: 3px solid var(--secondary-color);
+    background-color: rgba(255, 255, 56, 0.8);
     padding: 20px;
     width: 40%;
-    color: #024e76;
+    color: var(--secondary-color);
     margin: 3.5%;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -121,15 +132,15 @@ section {
 }
 
 .form-input {
-    border: 1px solid #024e76;
+    border: 1px solid var(--secondary-color);
     display: block;
     padding: 7px 15px;
     font-size: 16px;
-    color: #024e76;
+    color: var(--secondary-color);
     width: 100%;
     margin-bottom: 15px;
     border-radius: 10px;
-    background-color: rgba(225,225,225, 1);
+    background-color: rgba(225,225,225, 0.75);
 }
 
 .form-input:focus {
@@ -142,12 +153,16 @@ section {
 }
 
 .hero-form button {
-    color: #fce138;
-    background-color: #39a6b2;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
     border: none;
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 10px;
+}
+
+.hero-form button:hover {
+    background-color: var(--tertiary-color);
 }
 
 .checkbox-wrapper input, .radio-wrapper input {
@@ -349,7 +364,7 @@ section {
     margin: 15px;
 }
 
-.contact-info iframe {
+.contact-info iframet {
     height: 200px;
 }
 
@@ -402,26 +417,27 @@ button:active {
 }
 
 footer {
-    background: #fce138;
+    background: var(--primary-color);
     width: 100%;
     padding: 40px 35px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
 }
 
 footer h2 {
-    display: inline;
-    color: #024e76;
+    color: var(--secondary-color);
     font-size: 30px;
     margin: 0;
 }
 
 footer div {
-    float: right;
     line-height: 1.5;
     text-align: right;
 }
 
 footer a {
-    color: #024e76;
+    color: var(--secondary-color);
 }
 
 /* What does the flex-direction property define? What is it doing here? TODO: Write your answer here */
@@ -642,12 +658,13 @@ footer a {
 /* .section-title {
     width: 80%;
 } */
+.contact-info iframet {
+    flex: 1 100%;
+}
 .trainer {
     flex: 0 70%;
 }
-.contact-info iframe {
-    flex: 1 100%;
-}
+
 
 .step-text h4 {
     font-size: 26px;
