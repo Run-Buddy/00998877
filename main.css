@@ -266,7 +266,7 @@ section {
 
 /* what you do's class selector */
 .steps {
-    text-align: center;
+    /* text-align: center; */
     background: var(--primary-color);
 }
 /* and this one */
@@ -277,7 +277,8 @@ section {
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
     border-color: var( --tertiary-color);
-    display: inline-block;
+    /* display: inline-block; */
+    text-align: center;
 }
 
 .steps h3{
@@ -364,8 +365,8 @@ section {
     margin: 15px;
 }
 
-.contact-info iframet {
-    height: 200px;
+iframe {
+    height: 400px;
 }
 
 .contact-info div{
@@ -471,7 +472,7 @@ footer a {
 }
 
 .step-info {
-    flex: 2 70%;
+    flex: 0 70%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
