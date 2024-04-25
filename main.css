@@ -252,6 +252,7 @@ section {
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
     border-color: #fce138;
+    text-align: center;
 }
 
 .intro p {
@@ -363,8 +364,8 @@ section {
     margin: 15px;
 }
 
-.contact-info iframe {
-    height: 400px;
+.contact-info iframet {
+    height: 200px;
 }
 
 .contact-info div{
@@ -386,7 +387,9 @@ section {
 .contact-info a{
     color: #fce138;
 }
-
+.contact-form {
+    left: 34%;
+}
 .contact-form input, .contact-form textarea {
     border-radius: 10px;
 }
@@ -652,18 +655,17 @@ footer a {
     text-align: center;
 }
 
-.section-title {
+/* .section-title {
     width: 80%;
+} */
+.contact-info iframet {
+    flex: 1 100%;
 }
 .trainer {
     flex: 0 70%;
 }
-.contact-info iframe {
-    flex: 1 100%;
-}
-.contact-form {
-    order: 3;
-}
+
+
 .step-text h4 {
     font-size: 26px;
     line-height: 1.5;
