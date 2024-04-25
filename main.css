@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #fce138;
+    --primary-color: ;
     --secondary-color: #024e76;
     --tertiary-color: #39a6b2;
 }
@@ -36,7 +36,7 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #fce138;
+    color: var(--primary-color);
     margin: 0;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -251,7 +251,7 @@ section {
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
-    border-color: #fce138;
+    border-color: var(--primary-color);
     text-align: center;
 }
 
@@ -267,7 +267,7 @@ section {
 /* what you do's class selector */
 .steps {
     text-align: center;
-    background: #fce138;
+    background: var(--primary-color);
 }
 /* and this one */
 .steps h2 {
@@ -292,7 +292,7 @@ section {
 }
 
 .primary-border{
-    border-color: #fce138;
+    border-color: var(--primary-color);
 }
 
 .secondary-border{
@@ -355,7 +355,7 @@ section {
 }
 
 .contact h2 {
-    color: #fce138;
+    color: var(--primary-color);
     text-align: center;
 }
 
@@ -374,7 +374,7 @@ section {
 }
 
 .contact-info h3{
-    color: #fce138;
+    color: var(--primary-color);
     font-size: 32px;
 }
 .contact-info p, .contact-info address{
@@ -385,7 +385,7 @@ section {
     border-radius: 10px;
 }
 .contact-info a{
-    color: #fce138;
+    color: var(--primary-color);
 }
 .contact-form {
     left: 34%;
@@ -399,7 +399,7 @@ section {
 }
 
 .contact-form button:hover {
-    color: #fce138;
+    color: var(--primary-color);
     background: #39a6b2;
 }
 /* REACH OUT STYLES END */
@@ -688,7 +688,7 @@ footer a {
     width: 900px;
     /* margin: 20px; */
     background:  #024e76;
-    color: #fce138;
+    color: var(--primary-color);
     /* flex: 1; */
     /* overflow: auto; */
 }
